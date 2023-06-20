@@ -5,7 +5,7 @@ To run the project,you need to have installed:
 
 Afterwards, follow theses instructions:
 
-1. Clone repository from: -----
+1. Clone repository from: https://github.com/krista-t/nordic44.git
 2. Run: `poetry install`
 3. Run: `poetry shell`
 4. Go to notebooks directory and run `jupyter-notebook`

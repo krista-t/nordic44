@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nordic44"
+version = "0.1.0"
+description = "Nordic44 is a CIM test model of the Nordic power system. (CIM = Common Information Model)."
+authors = ["krista-t <krista.tomicic@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include="nordic44", from="." },
+]
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^1.10.9"
+numpy = "^1.25.0"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
